@@ -1,11 +1,13 @@
 # port scanner in python 
 To create a tool that scans a range of IP addresses and ports to identify which ports are open or closed on a target machine or network. This helps in understanding what services are running on the target machine.
+
 A port is a communication endpoint through which network data is sent and received. Different applications use different ports to communicate (e.g., HTTP uses port 80, HTTPS uses port 443, SSH uses port 22). By scanning ports, you can identify which services are running on a target machine.
+
 When scanning a target machine (or host), the goal is usually to gather information about the machine's open ports. These open ports indicate services or applications running on the machine, which might be accessible over a network. Understanding what ports are open and what services are running can help in a variety of legitimate use cases, as well as highlight potential risks or vulnerabilities.
 
 Here are the main uses of identifying open ports on a target machine:
 
-1. Network and Security Auditing:
+## 1. Network and Security Auditing:
 Purpose: Scanning a target machine helps system administrators or security teams audit their own systems.
 Benefit: Identifies unnecessary open ports and services that may expose the system to attack. Ensuring that only essential services are running and that the rest are properly secured can reduce the attack surface.
 2. Vulnerability Detection:
