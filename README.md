@@ -5,7 +5,7 @@ A port is a communication endpoint through which network data is sent and receiv
 
 When scanning a target machine (or host), the goal is usually to gather information about the machine's open ports. These open ports indicate services or applications running on the machine, which might be accessible over a network. Understanding what ports are open and what services are running can help in a variety of legitimate use cases, as well as highlight potential risks or vulnerabilities.
 
-# why do we use port scanner 
+# why do we use port scanner?
 
 ## 1. Network and Security Auditing:
 Purpose: Scanning a target machine helps system administrators or security teams audit their own systems.
